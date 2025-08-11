@@ -17130,7 +17130,7 @@ Modified icons to fit ionicon’s grid from original.
 .ion-at:before,
 .ion-backspace-outline:before,
 .ion-backspace:before,
-.ion-bag:before,
+
 .ion-battery-charging:before,
 .ion-battery-empty:before,
 .ion-battery-full:before,
@@ -17447,7 +17447,7 @@ Modified icons to fit ionicon’s grid from original.
 .ion-ios-rewind:before,
 .ion-ios-rose-outline:before,
 .ion-ios-rose:before,
-.ion-ios-search-strong:before,
+
 .ion-ios-search:before,
 .ion-ios-settings-strong:before,
 .ion-ios-settings:before,
@@ -18354,9 +18354,6 @@ Modified icons to fit ionicon’s grid from original.
     content: "\f3be"
 }
 
-.ion-bag:before {
-    content: "\f110"
-}
 
 .ion-battery-charging:before {
     content: "\f111"
@@ -19626,9 +19623,6 @@ Modified icons to fit ionicon’s grid from original.
     content: "\f4a5"
 }
 
-.ion-ios-search-strong:before {
-    content: "\f4a4"
-}
 
 .ion-ios-settings:before {
     content: "\f4a7"
@@ -37495,20 +37489,6 @@ fieldset:disabled .btn {
     color: #323232
 }
 
-.main-menu ul li.has-dropdown>a {
-    padding-right: 15px;
-    position: relative
-}
-
-.main-menu ul li.has-dropdown>a:after {
-    content: "\f107";
-    font-family: Font Awesome\ 5 Pro;
-    font-size: 14px;
-    position: absolute;
-    right: 0;
-    top: 50%;
-    transform: translateY(-50%)
-}
 
 .main-menu ul li:hover a {
     color: #323232

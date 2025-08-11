@@ -1,4 +1,9 @@
 import React from "react";
+import { FaFacebookF } from "react-icons/fa";
+import { FaTwitter } from "react-icons/fa";
+import { FaBehance } from "react-icons/fa";
+import { FaDribbble } from "react-icons/fa";
+import { FaArrowUp } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -151,28 +156,28 @@ const Footer = () => {
                     {/*[*/}
                     <li>
                       <a href="http://facebook.com" target="_blank">
-                        <i className="fab fa-facebook-f" />
+                        <FaFacebookF />
                       </a>
                     </li>
                     <li>
                       <a href="http://twitter.com" target="_blank">
-                        <i className="fab fa-twitter" />
+                        <FaTwitter />
                       </a>
                     </li>
                     <li>
                       <a href="https://www.behance.net/" target="_blank">
-                        <i className="fab fa-behance" />
+                        <FaBehance />
                       </a>
                     </li>
                     <li>
                       <a href="https://dribbble.com/" target="_blank">
-                        <i className="fab fa-dribbble" />
+                        <FaDribbble />
                       </a>
                     </li>
                     {/*]*/}
                     <li>
                       <a href="#">
-                        <i className="fas fa-share-alt" />
+                        <FaArrowUp/>
                       </a>
                     </li>
                   </ul>

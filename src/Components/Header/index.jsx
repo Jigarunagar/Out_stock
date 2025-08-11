@@ -1,4 +1,9 @@
 import React from "react";
+import { IoIosArrowDown } from "react-icons/io";
+import { IoReorderThreeOutline } from "react-icons/io5";
+import { IoIosSearch } from "react-icons/io";
+import { HiOutlineShoppingBag } from "react-icons/hi2";
+
 
 const Header = () => {
   return (
@@ -32,7 +37,7 @@ const Header = () => {
                             href="/"
                             className="router-link-active router-link-exact-active"
                           >
-                            Home
+                            Home <IoIosArrowDown/>
                           </a>
                           <ul className="submenu transition-3">
                             <li>
@@ -75,11 +80,11 @@ const Header = () => {
                               </a>
                             </li>
                           </ul>
-                          {/**/}
+                        
                         </li>
                         <li className="mega-menu has-dropdown">
                           <a href="/shop" className="">
-                            Shop
+                            Shop <IoIosArrowDown/>
                           </a>
                           {/**/}
                           <ul
@@ -214,7 +219,7 @@ const Header = () => {
                         </li>
                         <li className="active has-dropdown">
                           <a href="/blog" className="">
-                            Blog
+                            Blog <IoIosArrowDown/>
                           </a>
                           <ul className="submenu transition-3">
                             <li>
@@ -257,7 +262,7 @@ const Header = () => {
                         </li>
                         <li className="active has-dropdown">
                           <a href="/shop" className="">
-                            Pages
+                            Pages <IoIosArrowDown/>
                           </a>
                           <ul className="submenu transition-3">
                             <li>
@@ -300,7 +305,7 @@ const Header = () => {
                         </li>
                         <li className="undefined">
                           <a href="/contact" className="">
-                            Contact
+                            Contact <IoIosArrowDown/>
                           </a>
                           {/**/}
                           {/**/}
@@ -317,13 +322,12 @@ const Header = () => {
                     <ul>
                       <li>
                         <a href="#" className="search-toggle">
-                          <i className="ion-ios-search-strong" />
-                          Search{" "}
+                          <IoIosSearch/> Search 
                         </a>
                       </li>
                       <li>
                         <a href="#" className="cart">
-                          <i className="ion-bag" /> Cart
+                        <HiOutlineShoppingBag/> Cart
                           <span>(0)</span>
                         </a>
                         <div className="mini-cart">
@@ -335,7 +339,7 @@ const Header = () => {
                       </li>
                       <li>
                         <a href="#">
-                          <i className="far fa-bars" />
+                          <IoReorderThreeOutline className=""/>
                         </a>
                         <ul className="extra-info">
                           <li>
